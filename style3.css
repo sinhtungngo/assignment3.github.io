@@ -1,0 +1,79 @@
+nav {
+    background-color: #F28775;
+    height: 80px;
+  }
+  a.nav-link {
+    color: white;
+    font-family: Urbanist;
+
+  }
+  a.nav-link:hover {
+    color: black;
+  }
+
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+p {font-family: Urbanist; }
+
+
+
+
+.social-container {
+  width: 400px;
+  margin: 0vh auto;
+  text-align: center;
+}
+
+.social-icons {
+  padding: 0;
+  list-style: none;
+  margin: 1em;
+}
+.social-icons li {
+  display: inline-block;
+  margin: 0.15em;
+  position: relative;
+  font-size: 1.2em;
+}
+.social-icons i {
+  color: white;
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  transition: all 265ms ease-out;
+}
+.social-icons a {
+  display: inline-block;
+}
+.social-icons a:before {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  content: " ";
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  display: block;
+ 
+  transition: all 265ms ease-out;
+}
+.social-icons a:hover:before {
+  transform: scale(0);
+  transition: all 265ms ease-in;
+}
+.social-icons a:hover i {
+  transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  -webkit-transform: scale(2.2);
+  color: black;
+  background: -webkit-linear-gradient(45deg, #EAE48F, #EAE48F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 265ms ease-in;
+}
+ 
